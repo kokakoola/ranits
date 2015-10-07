@@ -1,0 +1,19 @@
+{
+  "name": "ekoolikott",
+  "version": "0.0.1",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "autoprefixer-core": "^6.0.1",
+    "dbushell-grunt-mustatic": "*",
+    "grunt": "*",
+    "grunt-bower-task": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-postcss": "^0.6.0",
+    "grunt-sakugawa": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ekoolikott",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "*",
+    "bootstrap-sass-official": "*",
+    "fontawesome": "*",
+    "Waves": "waves#~0.7.2"
+  }
+}
