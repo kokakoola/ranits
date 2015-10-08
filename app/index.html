@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>ekoolikott</title>
+        <title>e-ranits</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/css/app.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- <link rel="stylesheet" href="assets/css/app.min_1.css">
@@ -28,7 +29,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse   wow bounceInDown">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,132 +42,231 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="theme.html">Components</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ET <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">ET</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">ENG</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">RU</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Sisene</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right navbar-search" role="search">
+                      <!-- <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div> -->
+                      <button type="submit" class="btn btn-link"><i class="material-icons md-inline md-light md-24">&#xE8B6;</i></button>
+                    </form>
                 </div>
             </div>
+            <a href="add.html" class="float-btn btn btn-info morph" data-toggle="tooltip" title="Lisa materjal">
+              <i class="material-icons norm">add</i>
+              <i class="material-icons alt">mode_edit</i>
+              <i class="ripple"></i>
+            </a>
         </nav>
 
-        <section class="container">
+        <section class="container wow bounceInUp">
             <div class="row">
-              <div class="col-sm-12">
-                  <h1 data-toggle="tooltip" title="Hello World">Hello World!</h1>
-              </div>
+              <article class="col-sm-8 col-md-9 col-lg-10">
 
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <img class="img-responsive" src="http://lorempixel.com/400/200/nature/1">
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+                <h3>Uusimad</h3>
+                <div class="row">
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+            <a href="single.html"class="card">
+              <div class="card-image">
+                <img class="img-responsive" src="http://lorempixel.com/500/300/nature/1">
               </div>
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <img class="img-responsive" src="http://lorempixel.com/400/200/nature/2">
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+              <div class="card-content">
+                  <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+                  <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
               </div>
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <img class="img-responsive" src="http://lorempixel.com/400/200/nature/3">
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+              <div class="card-action text-center">
+                  <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+                  <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+                  <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+                  <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+                  <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
               </div>
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <img class="img-responsive" src="http://lorempixel.com/400/200/nature/4">
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+            </a>
+          </div>
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+            <a href="single.html"class="card">
+              <div class="card-image">
+                <img class="img-responsive" src="http://lorempixel.com/500/300/nature/2">
               </div>
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <div class="book empty">
-                      <i class="material-icons md-48">&#xE02F;</i>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+              <div class="card-content">
+                  <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+                  <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
               </div>
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <div class="audio empty">
-                      <i class="material-icons md-48">&#xE030;</i>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+              <div class="card-action text-center">
+                  <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+                  <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+                  <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+                  <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+                  <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
               </div>
-              <div class="col-sm-3">
-                <a href="./"class="card">
-                  <div class="card-image">
-                    <div class="video empty">
-                      <i class="material-icons md-48">&#xE04A;</i>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                      <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
-                      <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
-                  </div>
-                  <div class="card-action">
-                      <span data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
-                      <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
-                  </div>
-                </a>
+            </a>
+          </div>
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+            <a href="single.html"class="card">
+              <div class="card-image">
+                <img class="img-responsive" src="http://lorempixel.com/500/300/nature/3">
               </div>
+              <div class="card-content">
+                  <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+                  <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+              </div>
+              <div class="card-action text-center">
+                  <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+                  <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+                  <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+                  <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+                  <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+            <a href="single.html"class="card">
+              <div class="card-image">
+                <img class="img-responsive" src="http://lorempixel.com/500/300/nature/4">
+              </div>
+              <div class="card-content">
+                  <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+                  <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+              </div>
+              <div class="card-action text-center">
+                  <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+                  <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+                  <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+                  <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+                  <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+            <a href="single.html"class="card">
+              <div class="card-image">
+                <div class="book empty">
+                  <i class="material-icons">&#xE02F;</i>
+                </div>
+              </div>
+              <div class="card-content">
+                  <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+                  <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+              </div>
+              <div class="card-action text-center">
+                  <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+                  <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+                  <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+                  <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+                  <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+              </div>
+            </a>
+          </div>
 
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+            <a href="single.html"class="card">
+              <div class="card-image">
+                <div class="video empty">
+                  <i class="material-icons">&#xE04A;</i>
+                </div>
+              </div>
+              <div class="card-content">
+                  <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+                  <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+              </div>
+              <div class="card-action text-center">
+                  <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+                  <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+                  <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+                  <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+                  <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+    <a href="single.html"class="card">
+      <div class="card-image">
+        <div class="audio empty">
+          <i class="material-icons">&#xE030;</i>
+        </div>
+      </div>
+      <div class="card-content">
+          <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+          <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+      </div>
+      <div class="card-action text-center">
+          <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+          <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+          <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+          <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+          <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+      </div>
+    </a>
+  </div>
+  <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+    <a href="single.html"class="card">
+      <div class="card-image">
+        <div class="video empty">
+          <i class="material-icons">&#xE04A;</i>
+        </div>
+      </div>
+      <div class="card-content">
+          <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+          <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+      </div>
+      <div class="card-action text-center">
+          <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+          <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+          <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+          <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+          <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+      </div>
+    </a>
+  </div>
+  <div class="col-ms-6 col-sm-6 col-md-4 col-lg-3">
+    <a href="single.html"class="card">
+      <div class="card-image">
+        <div class="book empty">
+          <i class="material-icons">&#xE02F;</i>
+        </div>
+      </div>
+      <div class="card-content">
+          <h6 class="card-title excerpt-1">Bioloogia õpik 8. klassile, I osa</h6>
+          <p class="excerpt-1">Külli Relve, Helle Järvalt, Aiki Jõgeva, Merike Kilk, Mare Toom, Edith Maasik, Ene Lehtmets, Ana Valdmann, Anu Parts, Mari Uudelt</p>
+      </div>
+      <div class="card-action text-center">
+          <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+          <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+          <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+          <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span>
+          <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+      </div>
+    </a>
+  </div>
+</div>
+      </article>
+              <aside class="col-sm-4 col-md-3 col-lg-2">
+                <h5>Hinnatuimad</h5>
+                <div class="list-group">
+          <a href="#" class="list-group-item">
+            Cras justo odio molla
+          </a>
+          <a href="#" class="list-group-item">Dapibus ac facilisis in
+          </a>
+          <a href="#" class="list-group-item">Morbi leo risus
+          </a>
+        </div>
+      </aside>
             </div>
         </section>
 

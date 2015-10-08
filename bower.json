@@ -5,6 +5,8 @@
     "modernizr": "*",
     "bootstrap-sass-official": "*",
     "fontawesome": "*",
-    "Waves": "waves#~0.7.2"
+    "Waves": "waves#~0.7.2",
+    "animate.css": "~3.4.0",
+    "wow": "~1.1.2"
   }
 }

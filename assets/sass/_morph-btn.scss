@@ -1,0 +1,164 @@
+// http://codepen.io/wbarahona/pen/oXJzyG
+//
+// Transition
+// --------------------------------------------------------------
+	@mixin transition ($transition: all 0.15s ease-out) {
+		-webkit-transition: $transition;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+		transition: $transition;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+	}
+
+//
+// material design btn
+// ----------------------------------------------------------
+	.float-btn {
+		position: absolute;
+		right: 5%;
+		top: 40px;
+		z-index: $zindex-dropdown;
+		// display: block;
+		width: 55px;
+		height: 55px;
+		border-radius: 100%;
+		// text-align: center;
+		// margin: 0;
+		// padding: 0;
+		// border: none;
+		// background-color: #2196F3;
+		// color: white;
+		// cursor: pointer;
+		// overflow: hidden;
+		-webkit-appearance: none;
+		-moz-appearance:    none;
+		appearance:         none;
+		outline: 0 none;
+		&:focus,
+		&:active {
+			-webkit-appearance: none;
+			-moz-appearance:    none;
+			appearance:         none;
+			outline: 0 none;
+		}
+		i.material-icons {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 1;
+			margin: 0;
+		}
+	}
+
+//
+// Hover on round btn
+// ----------------------------------------------------------
+    .morph {
+		@include transition(all 0.25s ease-in-out);
+		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.6);
+        i.norm {
+            @include transition(all 0.55s ease-in-out);
+            transform: translate(-12px,-12px) rotate(-360deg) ;
+            opacity: 1;
+        }
+        i.alt {
+            @include transition(all 0.45s ease-in-out);
+            transform: scale(0.5) translate(-22px,-22px) rotate(-360deg) ;
+            opacity: 0;
+        }
+
+        &:hover {
+			box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.44);
+
+            i.norm {
+                opacity: 0;
+                transform: translate(-12px,-12px) rotate(720deg) ;
+            }
+            i.alt {
+                opacity: 1;
+                transform: scale(1) translate(-12px,-12px) rotate(0deg) ;
+            }
+        }
+
+		&:active {
+			.ripple {
+				-webkit-animation: ripples 0.3s 1;
+				-moz-animation:    ripples 0.3s 1;
+				-o-animation:      ripples 0.3s 1;
+				animation:         ripples 0.3s 1;
+			}
+		}
+    }
+
+//
+// ripple effect
+// ----------------------------------------------------------
+	@-webkit-keyframes ripples {
+		0%   {
+			opacity: 0;
+			transform: scale(0);
+		}
+		50%  {
+			opacity: 0.5;
+			transform: scale(1);
+		}
+		100% {
+			opacity: 0;
+			transform: scale(1);
+		}
+	}
+	@-moz-keyframes ripples {
+		0%   {
+			opacity: 0;
+			transform: scale(0);
+		}
+		50%  {
+			opacity: 0.5;
+			transform: scale(1);
+		}
+		100% {
+			opacity: 0;
+			transform: scale(1);
+		}
+	}
+	@-o-keyframes ripples {
+		0%   {
+			opacity: 0;
+			transform: scale(0);
+		}
+		50%  {
+			opacity: 0.5;
+			transform: scale(1);
+		}
+		100% {
+			opacity: 0;
+			transform: scale(1);
+		}
+	}
+	@keyframes ripples {
+		0%   {
+			opacity: 0;
+			transform: scale(0);
+		}
+		50%  {
+			opacity: 0.5;
+			transform: scale(1);
+		}
+		100% {
+			opacity: 0;
+			transform: scale(1);
+		}
+	}
+
+	.ripple {
+		position: relative;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		display: block;
+		width: 55px;
+		height: 55px;
+		margin: 0;
+		font-size: 0;
+		line-height: 0;
+		background-color: lighten(#2196F3, 10%);
+		border-radius: 100%;
+		transform: scale(0);
+	}

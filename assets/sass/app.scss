@@ -53,10 +53,13 @@
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 
 // Plugins
-@import "../../bower_components/fontawesome/scss/font-awesome";
+@import "_bootstrap-ms";
+// @import "../../bower_components/animate.css/animate.css";
+// @import "../../bower_components/fontawesome/scss/font-awesome";
 // @import "../../bower_components/Waves/src/scss/waves";
 
 // App style
 @import "_bootswatch";
-@import "_flexbox";
+@import "_morph-btn";
+// @import "_flexbox";
 @import "_style";

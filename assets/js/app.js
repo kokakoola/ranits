@@ -49,6 +49,7 @@ $(function () {
     // Waves.attach('.btn' ['waves-button', 'waves-float']);
     // Waves.attach('a', ['waves-button', 'waves-float']);
     // Waves.init();
+    new WOW().init();
     wavesEffect();
     $('.js-show').on('click',function(){
     $('.card-reveal').slideToggle('slow');
