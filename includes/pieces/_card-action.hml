@@ -1,0 +1,7 @@
+<div class="card-action text-center">
+    <span class="pull-left" data-toggle="tooltip" title="Lisatud"> 23.04.2015</span>
+    <!-- <span data-toggle="tooltip" title="Video"><i class="material-icons md-18">&#xE04A;</i></span>
+    <span data-toggle="tooltip" title="Raamat"><i class="material-icons md-18">&#xE02F;</i></span>
+    <span data-toggle="tooltip" title="Audio"><i class="material-icons md-18">&#xE030;</i></span> -->
+    <span class="pull-right" data-toggle="tooltip" title="Vaadatud"><i class="material-icons md-inline">&#xE8F4;</i> 23</span>
+</div>

@@ -1,0 +1,66 @@
+.overlay {
+  background: #34495e;
+  position: absolute;
+  opacity: 0;
+  height: 2px;
+  width: 225px;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  margin-left: -112.5px;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  transition: all 1s linear;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+// h1,
+// p {
+//   text-align: center;
+//   color: white;
+// }
+//
+// .glyphicon {
+//   color: white;
+//   font-size: 2em;
+//   margin: 20px;
+// }
+//
+// .glyphicon:hover { color: white; }
+//
+// body { background: white; }
+//
+// .btn {
+//   height: 65px;
+//   width: 225px;
+//   background: #2c3e50;
+//   display: table;
+//   text-align: center;
+//   margin: 0 auto;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   margin-left: -112.5px;
+//   margin-top: -32.5px;
+// }
+//
+// .btn p {
+//   display: table-cell;
+//   vertical-align: middle;
+//   color: white;
+//   font-size: 1.1em;
+// }
+
+#modal-content { padding: 0; }
+
+#modal-content h1,
+#modal-content p,
+#modal-content h2,
+#modal-content h3 { text-align: center; }
+
+#modal-content header {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}

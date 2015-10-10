@@ -1946,12 +1946,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 1020px;
+    width: 980px;
   }
 }
 @media (min-width: 1400px) {
   .container {
-    width: 1360px;
+    width: 1260px;
   }
 }
 
@@ -4890,7 +4890,7 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 3px;
+    border-radius: 0;
   }
 }
 
@@ -5191,8 +5191,8 @@ tbody.collapse.in {
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -8108,235 +8108,6 @@ td.hidden-xl {
     display: none !important;
   }
 }
-html {
-  font-size: 62.5%;
-}
-
-html.text-large {
-  font-size: 75%;
-}
-
-html.text-small {
-  font-size: 50%;
-}
-
-/* Material Design Typography */
-.display-4 {
-  font-size: 112px;
-  font-size: 11.2rem;
-  line-height: 128px;
-  line-height: 12.8rem;
-  letter-spacing: -0.1px;
-  letter-spacing: -0.01rem;
-  font-weight: 100;
-  color: #757575;
-  text-transform: inherit;
-}
-
-.display-3 {
-  font-size: 56px;
-  font-size: 5.6rem;
-  line-height: 84px;
-  line-height: 8.4rem;
-  letter-spacing: -0.05px;
-  letter-spacing: -0.005rem;
-  font-weight: 300;
-  color: #757575;
-  text-transform: inherit;
-}
-
-.display-2 {
-  font-size: 45px;
-  font-size: 4.5rem;
-  line-height: 48px;
-  line-height: 4.8rem;
-  letter-spacing: 0px;
-  letter-spacing: 0rem;
-  font-weight: 300;
-  color: #757575;
-  text-transform: inherit;
-}
-
-.display-1 {
-  font-size: 34px;
-  font-size: 3.4rem;
-  line-height: 40px;
-  line-height: 4rem;
-  letter-spacing: 0px;
-  letter-spacing: 0rem;
-  font-weight: 300;
-  color: #757575;
-  text-transform: inherit;
-}
-
-.headline {
-  font-size: 24px;
-  font-size: 2.4rem;
-  line-height: 32px;
-  line-height: 3.2rem;
-  letter-spacing: 0px;
-  letter-spacing: 0rem;
-  font-weight: 300;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.title {
-  font-size: 20px;
-  font-size: 2rem;
-  line-height: 28px;
-  line-height: 2.8rem;
-  letter-spacing: 0.05px;
-  letter-spacing: 0.005rem;
-  font-weight: 400;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.subhead-2 {
-  font-size: 15px;
-  font-size: 1.5rem;
-  line-height: 28px;
-  line-height: 2.8rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 400;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.subhead-1 {
-  font-size: 15px;
-  font-size: 1.5rem;
-  line-height: 24px;
-  line-height: 2.4rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 300;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.body-2 {
-  font-size: 13px;
-  font-size: 1.3rem;
-  line-height: 24px;
-  line-height: 2.4rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 400;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.body-1 {
-  font-size: 13px;
-  font-size: 1.3rem;
-  line-height: 20px;
-  line-height: 2rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 300;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.caption {
-  font-size: 12px;
-  font-size: 1.2rem;
-  line-height: 20px;
-  line-height: 2rem;
-  letter-spacing: 0.2px;
-  letter-spacing: 0.02rem;
-  font-weight: 300;
-  color: #757575;
-  text-transform: inherit;
-}
-
-.label {
-  font-size: 12px;
-  font-size: 1.2rem;
-  line-height: 20px;
-  line-height: 2rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 300;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.menu {
-  font-size: 13px;
-  font-size: 1.3rem;
-  line-height: 20px;
-  line-height: 2rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 400;
-  color: #212121;
-  text-transform: inherit;
-}
-
-.button {
-  font-size: 14px;
-  font-size: 1.4rem;
-  line-height: 20px;
-  line-height: 2rem;
-  letter-spacing: 0.1px;
-  letter-spacing: 0.01rem;
-  font-weight: 400;
-  color: #212121;
-  text-transform: uppercase;
-}
-
-@media only screen and (max-width: 960px) {
-  .subhead-2 {
-    font-size: 16px;
-    font-size: 1.6rem;
-  }
-
-  .subhead-1 {
-    font-size: 16px;
-    font-size: 1.6rem;
-  }
-
-  .body-2 {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
-
-  .body-1 {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
-
-  .menu {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
-}
-.display-4,
-.display-3,
-.display-2,
-.display-1 {
-  margin: 0 0 14px 0;
-  margin-bottom: 1.4rem;
-}
-
-.headline,
-.title,
-.subhead-2,
-.subhead-1,
-.body-2,
-.body-1,
-.caption,
-.label,
-.menu,
-.button {
-  margin: 0 0 10px 0;
-  margin-bottom: 1rem;
-}
-
 .navbar {
   border: none;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -9147,6 +8918,302 @@ input[type="checkbox"]:disabled:checked:after,
   color: inherit;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+html.text-large {
+  font-size: 75%;
+}
+
+html.text-small {
+  font-size: 50%;
+}
+
+/* Material Design Typography */
+.display-4 {
+  font-size: 112px;
+  font-size: 11.2rem;
+  line-height: 128px;
+  line-height: 12.8rem;
+  letter-spacing: -0.1px;
+  letter-spacing: -0.01rem;
+  font-weight: 100;
+  color: #757575;
+  text-transform: inherit;
+}
+
+.display-3 {
+  font-size: 56px;
+  font-size: 5.6rem;
+  line-height: 84px;
+  line-height: 8.4rem;
+  letter-spacing: -0.05px;
+  letter-spacing: -0.005rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+
+.display-2 {
+  font-size: 45px;
+  font-size: 4.5rem;
+  line-height: 48px;
+  line-height: 4.8rem;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+
+.display-1 {
+  font-size: 34px;
+  font-size: 3.4rem;
+  line-height: 40px;
+  line-height: 4rem;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+
+.headline {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 32px;
+  line-height: 3.2rem;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.title {
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  letter-spacing: 0.05px;
+  letter-spacing: 0.005rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.subhead-2 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.subhead-1 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.body-2 {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.body-1 {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.caption {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+
+.label {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.menu {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.button {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 960px) {
+  .subhead-2 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+
+  .subhead-1 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+
+  .body-2 {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+  .body-1 {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+  .menu {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+}
+.display-4,
+.display-3,
+.display-2,
+.display-1 {
+  margin: 0 0 14px 0;
+  margin-bottom: 1.4rem;
+}
+
+.headline,
+.title,
+.subhead-2,
+.subhead-1,
+.body-2,
+.body-1,
+.caption,
+.label,
+.menu,
+.button {
+  margin: 0 0 10px 0;
+  margin-bottom: 1rem;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/iconfont/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/iconfont/MaterialIcons-Regular.woff2) format("woff2"), url(../fonts/iconfont/MaterialIcons-Regular.woff) format("woff"), url(../fonts/iconfont/MaterialIcons-Regular.ttf) format("truetype");
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.overlay {
+  background: #34495e;
+  position: absolute;
+  opacity: 0;
+  height: 2px;
+  width: 225px;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  margin-left: -112.5px;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  transition: all 1s linear;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#modal-content {
+  padding: 0;
+}
+
+#modal-content h1,
+#modal-content p,
+#modal-content h2,
+#modal-content h3 {
+  text-align: center;
+}
+
+#modal-content header {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
 .float-btn {
   position: absolute;
   right: 5%;
@@ -9292,13 +9359,17 @@ input[type="checkbox"]:disabled:checked:after,
   margin-bottom: 5px;
 }
 
-.navbar-inverse.nav-edit {
+.navbar-inverse.mode-edit {
   background-color: #9C27B0;
 }
-.navbar-inverse.nav-edit .navbar-nav > .active > a,
-.navbar-inverse.nav-edit .navbar-nav > .active > a:hover,
-.navbar-inverse.nav-edit .navbar-nav > .active > a:focus {
+.navbar-inverse.mode-edit .navbar-nav > .active > a,
+.navbar-inverse.mode-edit .navbar-nav > .active > a:hover,
+.navbar-inverse.mode-edit .navbar-nav > .active > a:focus {
   background-color: #822193;
+}
+.navbar-inverse .btn-link:focus,
+.navbar-inverse .btn-link:hover {
+  background-color: transparent;
 }
 
 .excerpt-1 {
@@ -9629,6 +9700,52 @@ input[type="checkbox"]:disabled:checked:after,
     width: 200%;
     padding-bottom: 200%;
     opacity: 0;
+  }
+}
+.modal-slacker {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.modal-slacker .navbar {
+  box-shadow: none;
+}
+.modal-slacker .modal-content {
+  margin-top: 0;
+  border-radius: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  min-height: 50%;
+  height: auto;
+  overflow: auto;
+  background-color: #2196F3;
+}
+.modal-slacker .modal-content.mode-edit {
+  background-color: #9C27B0;
+}
+.modal-slacker .close {
+  color: #fff;
+  opacity: 1;
+  padding: 17px 17px;
+}
+.modal-slacker .modal-title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .modal-slacker .modal-header,
+  .modal-slacker .modal-body,
+  .modal-slacker .modal-footer {
+    width: 900px;
+  }
+}
+@media (min-width: 768px) {
+  .modal-slacker .modal-header,
+  .modal-slacker .modal-body,
+  .modal-slacker .modal-footer {
+    width: 600px;
+    margin: 30px auto;
   }
 }
 

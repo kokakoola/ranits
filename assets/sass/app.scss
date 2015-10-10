@@ -5,7 +5,7 @@
 @import "_variables-app";
 
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
-@import "xl/_mixins-xl";
+@import "mediaqueries/_mixins-xl";
 
 // Reset and dependencies
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
@@ -17,7 +17,7 @@
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/code";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
-@import "xl/_grid-xl";
+@import "mediaqueries/_grid-xl";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/tables";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/forms";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/buttons";
@@ -54,17 +54,19 @@
 // Utility classes
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
-@import "xl/responsive-utilities-xl";
+@import "mediaqueries/responsive-utilities-xl";
 
 // Plugins
-@import "_bootstrap-ms";
+@import "mediaqueries/_bootstrap-ms";
 // @import "../../bower_components/animate.css/animate.css";
 // @import "../../bower_components/fontawesome/scss/font-awesome";
 // @import "../../bower_components/Waves/src/scss/waves";
 
 // App style
-@import "_md-typography";
 @import "_bootswatch";
-@import "_morph-btn";
+@import "material/_md-typography";
+@import "material/_md-iconfont";
+@import "material/_md-modal";
+@import "material/_md-morph-btn";
 // @import "_flexbox";
 @import "_style";

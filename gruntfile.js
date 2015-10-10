@@ -45,20 +45,6 @@ module.exports = function(grunt) {
             }
         },
 
-        // add prefixes
-
-      //   autoprefixer: {
-      //     options: {
-      //         browsers: ['last 2 versions', 'ie 8', 'ie 9', '> 1%']
-      //     },
-      //     main: {
-      //         expand: true,
-      //         flatten: true,
-      //         src: 'app/assets/css/*.css',
-      //         dest: 'app/assets/css/'
-      //     }
-      // },
-
       postcss: {
           options: {
             map: true, // inline sourcemaps
@@ -148,7 +134,7 @@ module.exports = function(grunt) {
                 files: ['assets/sass/{,*/}*.scss'],
                 tasks: ['sass:dev']
             },
-            styles: {
+            scss: {
                 files: ['style.css'],
                 tasks: ['postcss']
             },

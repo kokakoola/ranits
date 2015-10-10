@@ -2901,7 +2901,7 @@
 })();
 
 $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
+    $("[data-hover='tooltip']").tooltip();
     // Waves.attach('.btn' ['waves-button', 'waves-float']);
     // Waves.attach('a', ['waves-button', 'waves-float']);
     // Waves.init();
@@ -2947,7 +2947,7 @@ $(function () {
 //   });
 // }
 
-
+// RIPPLES BUTTON & INPUT
 // http://codepen.io/joshadamous/pen/yyyqJZ
 $(window, document, undefined).ready(function() {
 

@@ -1,5 +1,5 @@
 {
-    "nav_class": "nav-edit",
+    "nav_class": "mode-edit",
     "float_btn_class": "btn-primary",
     "float_btn_goto": "index.html",
     "float_btn_icon1": "mode_edit",
